@@ -6,7 +6,7 @@ function resultOfCalculate () {
     let input = document.querySelector('.btn');
     calculateOfExpression(input.value);
     let div = document.createElement('div');
-    div.className = "task91";
+
     div.innerHTML = `Решение: ${calculateOfExpression (input.value)}`;
     document.body.append(div);
   };
